@@ -1,0 +1,16 @@
+GET http://localhost:4000/api/posts/1
+
+###
+POST http://localhost:4000/api/posts/
+
+{
+    "title": "this is the title",
+    "description": "this is the description",
+    "author": "this is the author",
+}
+
+###
+DELETE http://localhost:4000/api/posts/1
+
+### 
+PATCH http://localhost:4000/api/posts/1
